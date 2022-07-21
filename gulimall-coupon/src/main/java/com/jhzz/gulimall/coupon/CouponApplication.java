@@ -1,4 +1,4 @@
-package com.jhzz.gulimall.product;
+package com.jhzz.gulimall.coupon;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -9,15 +9,15 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * \* Created with IntelliJ IDEA.
  * \* @author: Huanzhi
  * \* Date: 2022/7/12
- * \* Time: 16:47
+ * \* Time: 17:29
  * \* Description:
  * \
  */
-@MapperScan("com.jhzz.gulimall.product.dao")
+@MapperScan("com.jhzz.gulimall.coupon.dao")
 @SpringBootApplication
 @EnableDiscoveryClient
-public class GulimallProductApplication {
+public class CouponApplication {
     public static void main(String[] args) {
-        SpringApplication.run(GulimallProductApplication.class,args);
+        SpringApplication.run(CouponApplication.class,args);
     }
 }
